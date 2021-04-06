@@ -1,0 +1,12 @@
+.navbar-nav {
+    .nav-link {
+        font-size: 22px;
+        color: $gray;
+        font-weight: 900;
+
+        &:focus,
+        &:active {
+            color: $black;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.cost-filter-container {
+    margin-bottom: 10px;
+
+    .wood-wrap {
+        height: 60px;
+        margin-bottom: -1%;
+        display: flex;
+        align-items: baseline;
+
+        label {
+            padding: 3px 20px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.age-filter-container {
+    margin-bottom: 80px;
+
+    .myBtnContainer {
+        display: flex;
+    }
+
+    .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: $white;
+        cursor: pointer;
+        width: 100px;
+        margin: 5px;
+        border: 1px solid $black;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+      
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $activeButtonColor;
+            color: $white;
+        }
+    }
+}

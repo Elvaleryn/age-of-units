@@ -1,0 +1,16 @@
+.unit-detail {
+    .table-detail {
+        text-align: center;
+
+        td,
+        th {
+            padding: 20px;
+            width: 300px;
+            border: 1px solid #dee2e6;
+        }
+
+        td {
+            width: 500px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.units {
+    .unit-table-container {
+        margin-top: 110px;
+    }
+
+    .table {
+        margin-bottom: 80px;
+
+        td,
+        th {
+            border: 1px solid #ddd;
+        }
+    }
+
+    tbody {
+        tr {
+
+            &:hover,
+            &:focus {
+                background: #ddd;
+                cursor: pointer;
+            }
+        }
+    }
+}
